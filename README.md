@@ -1,1 +1,5 @@
 # Datagovernanceanalysis-
+
+This study case show an exploratory data analysis on educational program feedback using the Pandas, Seaborn, and Matplotlib libraries. It first loads an offline program dataset named Data_Offline.csv, which contains participant ratings on various instructional aspects such as tutor expertise, communication clarity, and overall material comprehension. The code calculates the average scores across three main pillars—tutor quality, material comprehension, and operational quality—and visualizes these performance metrics using a Seaborn bar chart.  
+
+then, analyzing an online program dataset named Data_Online.csv, which tracks mentor performance across specific indicators like punctuality, interactivity, and responsiveness outside of live sessions. These indicators are aggregated into average scores and displayed in a secondary horizontal bar chart to evaluate online mentor effectiveness. Finally, the notebook attempts to load a third dataset for webinar performance (Data_Webinar.csv), but the execution fails due to a syntax error where pd.read.csv is used instead of the correct pd.read_csv Pandas function
